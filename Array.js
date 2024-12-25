@@ -31,6 +31,7 @@ const numbers = [1, 2, 3, 4, 5]
 // const slicedArray = numbers.slice(1, 4)
 // console.log(slicedArray)
 
+
 //splice==>is used to change the content of an array by removing or replacing existing and/or adding new elements
 //splice(startIndex,deleteCount,item)
 // numbers.splice(2, 1, 10)
