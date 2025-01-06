@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="password" name="" value="karma" id="a" />
+    <button onclick="aa()">Show</button>
+    <img src="/hd-light-bulb-on-off-png-31626305624ofqq78jchu.png" width="120" alt="" />
+    <button onclick="document.querySelector('img').src='on.jpeg'">ON</button>
+    <button onclick="document.querySelector('img').src='off.png'">Off</button>
+    <script>
+      function aa() {
+        if (document.querySelector("#a").type == "password") {
+          document.querySelector("#a").type = "text";
+        } else {
+          document.querySelector("#a").type = "password";
+        }
+      }
+    </script>
+  </body>
+</html>
